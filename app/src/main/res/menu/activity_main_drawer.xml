@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_menu_sildenav_account"
+            android:title="就诊人" />
+        <item
+            android:id="@+id/nav_like"
+            android:icon="@drawable/ic_menu_sidenav_like"
+            android:title="收藏" />
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/ic_menu_sidenav_order"
+            android:title="订单" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="设置" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_service"
+                android:icon="@drawable/ic_menu_sidenav_service"
+                android:title="联系客服" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="错误投诉" />
+        </menu>
+    </item>
+
+</menu>
